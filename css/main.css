@@ -1,0 +1,50 @@
+
+* { box-sizing: border-box; margin-top: 0; }
+
+a:hover {
+    background-color: darkorange;
+}
+
+
+body {
+    background-image: url("../img/backgr.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-card1 {
+    text-decoration: none;
+}
+
+.container1 {
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-right: 150px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container3 {
+    color: white;
+    text-align: center;
+    font-size: small;
+}
